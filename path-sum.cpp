@@ -18,7 +18,7 @@ public:
         // Subtract the current node's value from the target sum
         targetSum -= root->val;
 
-        // Recursively check the left and right subtrees
+        // Rcursively check the left and right subtrees
         return hasPathSum(root->left, targetSum) || hasPathSum(root->right, targetSum);
     }
 };
