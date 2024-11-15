@@ -6,7 +6,7 @@ public:
         dummy->next = head;
         
        
-        ListNode* current = dummy;
+        ListNode* current  = dummy;
         
         
         while (current->next != nullptr) {
